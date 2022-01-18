@@ -82,3 +82,31 @@ aside {
 body {
   /* background-color: blue; */
 }
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orange;
+  font-weight: bold;
+  text-decoration: underline orange;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
