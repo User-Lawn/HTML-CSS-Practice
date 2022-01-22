@@ -26,11 +26,30 @@ body {
 }
 
 .more-information:link,
-.more-informaion:visited {
+.more-information:visited {
   color: black;
 }
 
 .more-information:hover,
-.more-informaion:active {
+.more-information:active {
   text-decoration: none;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.detail-list {
+  list-style: square;
+}
+
+/* button */
+
+.add-cart {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
 }
