@@ -25,7 +25,8 @@ body {
   color: #777;
 }
 
-.more-information:link {
+.more-information:link,
+.more-informaion:visited {
   color: black;
 }
 
