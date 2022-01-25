@@ -16,7 +16,12 @@ body {
   margin-bottom: 60px;
 }
 
+article {
+  margin-bottom: 60px;
+}
+
 .post-header {
+  margin-bottom: 40px;
 }
 
 aside {
