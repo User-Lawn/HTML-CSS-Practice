@@ -2,7 +2,7 @@
   padding: 0px;
   margin: 0px;
 }
-
+/* PAGE SECTION */
 body {
   color: #444;
   font-family: sans-serif;
@@ -21,7 +21,7 @@ body {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 article {
@@ -154,6 +154,21 @@ a:active {
   font-style: italic;
 }
 
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+
+  display: block; */
+
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
 .post-img {
   width: 100%;
   height: auto;
