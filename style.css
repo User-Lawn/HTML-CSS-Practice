@@ -187,8 +187,24 @@ h1::first-letter {
   margin-right: 5px;
 }
 
-p::first-line {
+h3 + p::first-line {
   color: red;
+}
+
+h2 {
+  background-color: orange;
+  position: relative;
+}
+h2::after {
+  content: "top";
+  background-color: #ffe70e;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  right: -25px;
 }
 .post-img {
   width: 100%;
