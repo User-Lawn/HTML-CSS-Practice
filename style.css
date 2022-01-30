@@ -210,6 +210,10 @@ h2::after {
   top: -15px;
   right: -25px;
 }
+
+.main-header nav a:link {
+  margin-top: 100px;
+}
 .post-img {
   width: 100%;
   height: auto;
